@@ -9,7 +9,7 @@ def get_random(amount: int = 1):
 def run():
     word = get_random()
     placeholder = "_"
-    lives = 3
+    lives = 6
     done = False
     guess = placeholder * len(word)
 
