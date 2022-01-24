@@ -15,7 +15,7 @@ def run():
 
     while not done:
         print("*"*30)
-        print(f"Current guess: {guess}\nWord: {word}\nLives: {lives}")
+        print(f"Current guess: {guess}\nLives: {lives}")
         user_in = input("Enter your guess: ").lower()
         if user_in in word:
             for index, value in enumerate(word):
